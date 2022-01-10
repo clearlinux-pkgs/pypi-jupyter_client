@@ -4,7 +4,7 @@
 #
 Name     : pypi-jupyter_client
 Version  : 7.1.0
-Release  : 70
+Release  : 71
 URL      : https://files.pythonhosted.org/packages/47/e3/192086e7b150f1fd549115190c3525a115e86b9227d6853f7ddcb07d7dc1/jupyter_client-7.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/47/e3/192086e7b150f1fd549115190c3525a115e86b9227d6853f7ddcb07d7dc1/jupyter_client-7.1.0.tar.gz
 Summary  : Jupyter protocol implementation and client libraries
@@ -14,11 +14,8 @@ Requires: pypi-jupyter_client-bin = %{version}-%{release}
 Requires: pypi-jupyter_client-license = %{version}-%{release}
 Requires: pypi-jupyter_client-python = %{version}-%{release}
 Requires: pypi-jupyter_client-python3 = %{version}-%{release}
-Requires: pyzmq
+Requires: pypi(pyzmq)
 BuildRequires : buildreq-distutils3
-Provides: jupyter_client
-Provides: jupyter_client-python
-Provides: jupyter_client-python3
 BuildRequires : pypi(entrypoints)
 BuildRequires : pypi(jupyter_core)
 BuildRequires : pypi(nest_asyncio)
@@ -84,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641450062
+export SOURCE_DATE_EPOCH=1641836697
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
