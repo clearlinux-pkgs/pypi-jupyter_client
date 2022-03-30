@@ -1,8 +1,0 @@
-7.1.2
-pypi(entrypoints)
-pypi(jupyter_core)
-pypi(nest_asyncio)
-pypi(python_dateutil)
-pypi(pyzmq)
-pypi(tornado)
-pypi(traitlets)
