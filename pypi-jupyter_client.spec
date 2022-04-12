@@ -4,7 +4,7 @@
 #
 Name     : pypi-jupyter_client
 Version  : 7.2.2
-Release  : 76
+Release  : 77
 URL      : https://files.pythonhosted.org/packages/52/ae/9948b7d19c384c4f5176715073df5745cdf725272ee05e4e326c11fc6cbc/jupyter_client-7.2.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/52/ae/9948b7d19c384c4f5176715073df5745cdf725272ee05e4e326c11fc6cbc/jupyter_client-7.2.2.tar.gz
 Summary  : Jupyter protocol implementation and client libraries
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1649376735
+export SOURCE_DATE_EPOCH=1649773913
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
