@@ -4,7 +4,7 @@
 #
 Name     : pypi-jupyter_client
 Version  : 7.3.4
-Release  : 82
+Release  : 83
 URL      : https://files.pythonhosted.org/packages/bf/88/38e5592f8443d992de9fcb32d345260f94181408b43fba381e0e37aa7121/jupyter_client-7.3.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bf/88/38e5592f8443d992de9fcb32d345260f94181408b43fba381e0e37aa7121/jupyter_client-7.3.4.tar.gz
 Summary  : Jupyter protocol implementation and client libraries
