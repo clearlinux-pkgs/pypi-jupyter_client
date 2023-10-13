@@ -5,7 +5,7 @@
 #
 Name     : pypi-jupyter_client
 Version  : 8.4.0
-Release  : 107
+Release  : 108
 URL      : https://files.pythonhosted.org/packages/77/d8/1627e06db1bd3b6907ee43eae38651848de6e57996370fff60c273366509/jupyter_client-8.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/77/d8/1627e06db1bd3b6907ee43eae38651848de6e57996370fff60c273366509/jupyter_client-8.4.0.tar.gz
 Summary  : Jupyter protocol implementation and client libraries
