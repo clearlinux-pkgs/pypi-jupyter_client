@@ -6,10 +6,10 @@
 # autospec commit: 250a666
 #
 Name     : pypi-jupyter_client
-Version  : 8.5.0
-Release  : 109
-URL      : https://files.pythonhosted.org/packages/c6/f4/55318ab6a7acbac15e6d098365b50021174835c30d9f0a4030b79e4cf3ee/jupyter_client-8.5.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c6/f4/55318ab6a7acbac15e6d098365b50021174835c30d9f0a4030b79e4cf3ee/jupyter_client-8.5.0.tar.gz
+Version  : 8.6.0
+Release  : 110
+URL      : https://files.pythonhosted.org/packages/71/04/4418fca04fd65a26771113a0a46220a1a54a6d6bcc6fae4ad6b69eb27dd5/jupyter_client-8.6.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/71/04/4418fca04fd65a26771113a0a46220a1a54a6d6bcc6fae4ad6b69eb27dd5/jupyter_client-8.6.0.tar.gz
 Summary  : Jupyter protocol implementation and client libraries
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -71,10 +71,10 @@ python3 components for the pypi-jupyter_client package.
 
 
 %prep
-%setup -q -n jupyter_client-8.5.0
-cd %{_builddir}/jupyter_client-8.5.0
+%setup -q -n jupyter_client-8.6.0
+cd %{_builddir}/jupyter_client-8.6.0
 pushd ..
-cp -a jupyter_client-8.5.0 buildavx2
+cp -a jupyter_client-8.6.0 buildavx2
 popd
 
 %build
@@ -82,7 +82,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1698244592
+export SOURCE_DATE_EPOCH=1699285425
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
